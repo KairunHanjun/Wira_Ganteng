@@ -4,7 +4,9 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-          'sans': ['Roboto', 'Helvetica', 'Arial', 'sans-serif', 'Inter']
+          'Playfair': ['Playfair', 'sans-serif'],
+          'Inter': ['Inter', 'sans-serif'],
+          'ClickerScript': ['ClickerScript', 'sans-serif']
         }
       },
     },
