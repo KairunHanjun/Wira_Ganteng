@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: ["./*.{html,js}"],
+    variants: {
+     fontSize: ['responsive', 'hover', 'focus'],
+    },
     theme: {
       extend: {
         fontFamily: {
