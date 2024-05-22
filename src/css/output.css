@@ -1582,6 +1582,14 @@ video {
   background-image: url('/src/img/fotter_image(1).png');
 }
 
+.bg-\[url\(\'\.\/src\/img\/hot_coffee\.png\'\)\] {
+  background-image: url('./src/img/hot_coffee.png');
+}
+
+.bg-\[url\(\'\.\/src\/img\/fotter_image\(1\)\.png\'\)\] {
+  background-image: url('./src/img/fotter_image(1).png');
+}
+
 .bg-cover {
   background-size: cover;
 }
